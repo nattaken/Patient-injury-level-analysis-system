@@ -17,11 +17,11 @@ certificate_or_medication = input("มาขอใบรับรองแพท
 if sbp < 90 and (hr > 150 or hr < 50):
     level = 1
     description = "ระดับ 1: วิกฤต - ความดันต่ำและชีพจรผิดปกติรุนแรง"
-    action = "รับพบแพทย์ทันที"
+    action = "รีบพบแพทย์ทันที"
 elif unconscious == "y" or severe_breathing_difficulty == "y":
     level = 1
     description = "ระดับ 1: วิกฤต - หายใจลำบากหรือหมดสติ"
-    action = "รับพบแพทย์ทันที"
+    action = "รีบพบแพทย์ทันที"
 elif hr > 150 or hr < 50:
     level = 2
     description = "ระดับ 2: ฉุกเฉิน - ชีพจรผิดปกติ"
